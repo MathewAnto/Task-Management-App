@@ -1,0 +1,52 @@
+.homePage {
+    /* height: 100vh; */
+    min-height: 100vh;
+    background-color: bisque;
+    background-image: linear-gradient(
+        rgba(128, 128, 128, 0.9),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url(../../assets/images/home-bg.jpg);
+    background-size: cover;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+#homeTitle {
+    text-transform: uppercase;
+    color: gold;
+}
+
+.homePage table {
+    width: 90%;
+}
+
+.homePage table th {
+    text-transform: uppercase;
+}
+
+.homePage button {
+    text-transform: uppercase;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.addTaskForm {
+    width: 34%;
+}
+
+.addTaskForm .form-label {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.editTaskForm {
+    width: 34%;
+}
+
+.viewTaskForm {
+    width: 34%;
+}
